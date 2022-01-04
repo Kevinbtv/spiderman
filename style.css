@@ -1,0 +1,121 @@
+body {
+  background: linear-gradient(
+      90deg,
+      rgba(11, 12, 16, 0.6) 0%,
+      rgba(11, 12, 16, 0.4) 52.08%,
+      rgba(12, 12, 16, 0.6) 100%
+    ),
+    url('images/background.jpg');
+
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.topo {
+  background: rgba(29, 29, 29, 0.5);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.logoo {
+  position: relative;
+}
+
+#logo {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.logo-bola {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  border-radius: 50%;
+  border: solid 1px white;
+}
+
+#marvel {
+  margin-left: 177px;
+  cursor: pointer;
+}
+
+.spider {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding-right: 200px;
+}
+
+.menu ul {
+  display: flex;
+  gap: 58px;
+}
+
+.menu ul li {
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.barra {
+  background-color: rgba(29, 29, 29, 0.5);
+  height: calc((100vh) - 80px);
+  width: 80px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 110px;
+  gap: 80px;
+}
+
+#lupa {
+  padding-top: 100px;
+  padding-bottom: 63.9px;
+}
+
+.meio {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  background-color: #1d1d1d;
+  padding: 22px 53px;
+  border-top-left-radius: 15px;
+  border: solid 2px #ec111a;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.button p {
+  color: white;
+  text-transform: uppercase;
+}
